@@ -11,5 +11,6 @@ Name of the project / source codes and folders / README.md
 
 1. Clone the Repository:
    
-bash git clone https://github.com/ErnandesFranco/AWS.git
+git clone https://github.com/ErnandesFranco/AWS.git
+
 cd AWS
