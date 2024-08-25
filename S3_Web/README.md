@@ -19,6 +19,7 @@ Follow these steps to set up your static website on Amazon S3:
 1. **Sign in to the AWS Management Console** and open the S3 service.
 2. **Create a new bucket**:
    - Click **"Create bucket"**.
+     <img width="828" alt="Screenshot 2024-08-25 at 12 07 22 AM" src="https://github.com/user-attachments/assets/8e158e17-3576-45b8-bfde-125e49d734bb">
    - Enter a unique bucket name (e.g., `my-static-website-bucket`).
    - Select a region close to your audience.
    - Uncheck **"Block all public access"**.
