@@ -22,15 +22,22 @@ Follow these steps to set up your static website on Amazon S3:
      <img width="828" alt="Screenshot 2024-08-25 at 12 07 22 AM" src="https://github.com/user-attachments/assets/8e158e17-3576-45b8-bfde-125e49d734bb">
    - Enter a unique bucket name (e.g., `my-static-website-bucket`).
    - Select a region close to your audience.
+     <img width="807" alt="Screenshot 2024-08-25 at 12 09 09 AM" src="https://github.com/user-attachments/assets/e9b68018-7405-4e52-a8fa-5aede837e3c1">
    - Uncheck **"Block all public access"**.
+     <img width="807" alt="Screenshot 2024-08-25 at 12 09 59 AM" src="https://github.com/user-attachments/assets/8fb84c67-de0f-450f-a19d-56af96123642">
    - Click **"Create bucket"**.
+     <img width="147" alt="Screenshot 2024-08-25 at 12 10 37 AM" src="https://github.com/user-attachments/assets/7090f735-4fd9-4546-8b58-5e1834e575dc">
 
 3. **Configure the Bucket for Website Hosting**:
    - Go to the bucket and click the **"Properties"** tab.
+     <img width="665" alt="Screenshot 2024-08-25 at 12 13 01 AM" src="https://github.com/user-attachments/assets/1cb53a84-fe6c-45ab-812f-ea8832708f58">
    - Under **"Static website hosting"**, click **"Edit"**.
    - Enable static website hosting and enter `index.html` as the Index document.
+     <img width="665" alt="Screenshot 2024-08-25 at 12 14 17 AM" src="https://github.com/user-attachments/assets/bcf1b16b-882c-40f6-ad81-eb711a7af110">
    - Optionally, enter `error.html` for the Error document.
    - Click **"Save changes"**.
+     <img width="139" alt="Screenshot 2024-08-25 at 12 14 43 AM" src="https://github.com/user-attachments/assets/b8caef68-6670-48ab-b0eb-f49c1f279575">
+
 
 ### 2. Upload Your Website Files
 
@@ -42,6 +49,8 @@ Follow these steps to set up your static website on Amazon S3:
    - Go to the **"Objects"** tab of your bucket.
    - Click **"Upload"**.
    - Drag and drop your files into the upload area and click **"Upload"**.
+     <img width="665" alt="Screenshot 2024-08-25 at 12 16 24 AM" src="https://github.com/user-attachments/assets/68f26702-1232-4c5a-b476-71fd37bed3d2">
+
 
 3. **Set Permissions**:
    - Select your `index.html` file.
