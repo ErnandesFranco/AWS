@@ -53,8 +53,13 @@ Follow these steps to set up your static website on Amazon S3:
 
 
 3. **Set Permissions**:
-   - Select your `index.html` file.
-   - Click **"Actions"** > **"Make public"**.
+   - Click on your `index.html` file.
+   - Click on **Permissions**
+   - Click on **Edit**
+   - Make it public to Everyone
+   - Click on **"Save Changes"**.
+     <img width="805" alt="Screenshot 2024-08-25 at 12 21 22 AM" src="https://github.com/user-attachments/assets/ef23c137-ee97-4fe5-91c4-e2c6391e5b12">
+
 
 ### 3. Access Your Website
 
@@ -64,6 +69,7 @@ Follow these steps to set up your static website on Amazon S3:
    - Use this URL to access your static website.
 
 2. **Visit the URL** in your browser to see your website in action.
+   <img width="952" alt="Screenshot 2024-08-25 at 12 22 32 AM" src="https://github.com/user-attachments/assets/e8243fc1-69c7-48ad-b006-bbac687bdc6c">
 
 ### 4. (Optional) Set Up a Custom Domain with Route 53
 
