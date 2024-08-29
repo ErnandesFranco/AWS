@@ -123,3 +123,15 @@ def lambda_handler(event, context):
 4. AWS Lambda: 1 million free requests per month.
 5. Amazon S3: 5 GB of free storage and 20,000 GET requests per month.
 6. Amazon SNS: 1 million free publishes or deliveries per month.
+
+### Summary
+Amazon S3: Used for storing and triggering notifications on file uploads.
+Amazon SNS: Used for sending email notifications.
+AWS Lambda: Used for processing S3 events and sending notifications.
+This project leverages the AWS Free Tier to demonstrate basic email notification capabilities. You can expand it by integrating additional AWS services as needed.
+
+### License
+This project is not licensed. Feel free to use it and learn from it.
+
+### Contact
+For any questions or feedback, please contact me at [LinkedIn](https://www.linkedin.com/in/ernandesfranco/).
