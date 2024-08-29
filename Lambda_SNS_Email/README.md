@@ -65,10 +65,10 @@ This project creates an AWS Lambda function that sends an email notification whe
 For this example, use Python:
 
 # Copy and edit the code below: (Don't copy this line.)
-import json
-import boto3
+   import json
+   import boto3
 
-def lambda_handler(event, context):
+   def lambda_handler(event, context):
     s3 = boto3.client('s3')
     sns = boto3.client('sns')
     
