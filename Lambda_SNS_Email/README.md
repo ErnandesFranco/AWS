@@ -69,8 +69,8 @@ For this example, use Python:
    import boto3
 
    def lambda_handler(event, context):
-    s3 = boto3.client('s3')
-    sns = boto3.client('sns')
+      s3 = boto3.client('s3')
+      sns = boto3.client('sns')
     
     # Get bucket and file name from the event
     bucket_name = event['Records'][0]['s3']['bucket']['name']
