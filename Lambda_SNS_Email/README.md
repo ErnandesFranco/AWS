@@ -14,6 +14,7 @@ This project creates an AWS Lambda function that sends an email notification whe
 6. Choose the region closest to you.
    <img width="806" alt="Screenshot 2024-08-29 at 2 45 36 PM" src="https://github.com/user-attachments/assets/e59c5645-ed12-4e1c-bf71-3d25d772d08a">
 8. Leave the default settings and click **Create bucket**.
+
    <img width="147" alt="Screenshot 2024-08-29 at 2 47 06 PM" src="https://github.com/user-attachments/assets/e72aef18-83d3-4b42-8f32-9ab059d78e89">
 
 ### 2. Set Up SNS (Simple Notification Service)
@@ -26,17 +27,20 @@ This project creates an AWS Lambda function that sends an email notification whe
 5. Select **Standard** as the type of topic.
    <img width="1090" alt="Screenshot 2024-08-29 at 2 52 08 PM" src="https://github.com/user-attachments/assets/e780ca4c-2d0c-4d35-987a-53767a534db8">
 7. Create the topic
+
    <img width="130" alt="Screenshot 2024-08-29 at 2 53 21 PM" src="https://github.com/user-attachments/assets/de93ca01-40e1-4fce-9370-4807f400f6d1">
 9. After creating the topic, click on it and go to the **Subscriptions** section.
     <img width="1058" alt="Screenshot 2024-08-29 at 2 54 34 PM" src="https://github.com/user-attachments/assets/8f1f3350-b7d9-4771-9858-f578cb56d908">
 10. Click **Create subscription**.
+
     <img width="1058" alt="Screenshot 2024-08-29 at 2 57 01 PM" src="https://github.com/user-attachments/assets/eba3acd8-bf72-4d4c-90d7-d0469c7e91bd">
-11. Under **Protocol**, select **Email**.
-12. In the **Endpoint** field, enter your email address.
+12. Under **Protocol**, select **Email**.
+13. In the **Endpoint** field, enter your email address.
     <img width="1093" alt="Screenshot 2024-08-29 at 2 58 51 PM" src="https://github.com/user-attachments/assets/0be6901c-f6e2-4204-bef5-160cbfd58570">
-13. Click **Create subscription**.
+14. Click **Create subscription**.
+
     <img width="182" alt="Screenshot 2024-08-29 at 3 00 03 PM" src="https://github.com/user-attachments/assets/43a64030-a837-49d7-a6db-bcc1b08db3d2">
-14. Check your email and confirm the subscription.
+16. Check your email and confirm the subscription.
     <img width="1090" alt="Screenshot 2024-08-29 at 3 01 14 PM" src="https://github.com/user-attachments/assets/ae9ecff6-f5db-4aff-8be4-24190c347b8e">
 
 ### 3. Create the Lambda Function
