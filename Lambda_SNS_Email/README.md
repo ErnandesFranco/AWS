@@ -43,11 +43,16 @@ This project creates an AWS Lambda function that sends an email notification whe
 
 1. Go to the [AWS Lambda console](https://console.aws.amazon.com/lambda/home).
 2. Click on **Create function**.
-3. Select **Author from scratch**.
-4. Enter a name for your function (e.g., `S3FileUploadNotifier`).
-5. Choose the runtime (e.g., `Python 3.8` or `Node.js 14.x`).
-6. Under **Permissions**, choose an existing role if you have one or let Lambda create a new role with basic Lambda permissions.
-7. Click **Create function**.
+   <img width="781" alt="Screenshot 2024-08-29 at 3 10 03 PM" src="https://github.com/user-attachments/assets/e96d73e5-eb11-410e-8cc2-7466c1a24a65">
+4. Select **Author from scratch**.
+5. Enter a name for your function (e.g., `S3FileUploadNotifier`).
+6. Choose the runtime (e.g., `Python 3.8`).
+   <img width="815" alt="Screenshot 2024-08-29 at 3 11 00 PM" src="https://github.com/user-attachments/assets/ea25d592-6621-47c0-ad18-3aab2af7d750">
+8. Under **Permissions**, choose an existing role if you have one or let Lambda create a new role with basic Lambda permissions.
+9. Click **Create function**.
+
+   <img width="152" alt="Screenshot 2024-08-29 at 3 11 46 PM" src="https://github.com/user-attachments/assets/bcc1db7a-1314-47e8-8f8b-1eca4e823101">
+
 
 ### 4. Add Code to the Lambda Function
 
