@@ -1,5 +1,4 @@
-Email Notification System using AWS Lambda and SNS
-
+Project: Email Notification System using AWS Lambda and SNS
 Description:
 This project creates an AWS Lambda function that sends an email notification whenever a new file is uploaded to an S3 bucket. The email is sent via Amazon SNS (Simple Notification Service).
 
