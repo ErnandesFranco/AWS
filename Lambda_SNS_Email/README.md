@@ -65,17 +65,16 @@ This project creates an AWS Lambda function that sends an email notification whe
 For this example, use Python:
 
 # Copy and edit the code below: (Don't copy this line.)
-<code>
-   import json
-   import boto3
+import json
+import boto3
+
+def lambda_handler(event, context):
+    s3 = boto3.client('s3')
+    sns = boto3.client('sns')
     
     # Get bucket and file name from the event
-
-   def lambda_handler(event, context):
-       s3 = boto3.client('s3')
-       sns = boto3.client('sns')
-       bucket_name = event['Records'][0]['s3']['bucket']['name']
-       file_name = event['Records'][0]['s3']['object']['key']
+    bucket_name = event['Records'][0]['s3']['bucket']['name']
+    file_name = event['Records'][0]['s3']['object']['key']
     
     # Compose the message
     message = f"A new file {file_name} was uploaded to the bucket {bucket_name}."
@@ -91,7 +90,6 @@ For this example, use Python:
         'statusCode': 200,
         'body': json.dumps('Notification sent successfully!')
     }
-</code>
 # This is the end of the code. (Don't copy this line.)
 **Replace your-region and your-account-id with the appropriate values from your SNS topic's ARN.**
 
