@@ -8,24 +8,32 @@ This project creates an AWS Lambda function that sends an email notification whe
 ### 1. Create the S3 Bucket
 
 1. Go to the [Amazon S3 console](https://s3.console.aws.amazon.com/s3/home).
-2. Click on **Create bucket**.
-3. Enter a unique name for the bucket (e.g., `my-notification-bucket`).
-4. Choose the region closest to you.
-5. Leave the default settings and click **Create bucket**.
+3. Click on **Create bucket**.
+   <img width="1016" alt="Screenshot 2024-08-29 at 2 44 34 PM" src="https://github.com/user-attachments/assets/f42e7d92-0acb-4835-aae3-c641fefa19f6">
+5. Enter a unique name for the bucket (e.g., `my-notification-bucket`).
+6. Choose the region closest to you.
+   <img width="806" alt="Screenshot 2024-08-29 at 2 45 36 PM" src="https://github.com/user-attachments/assets/e59c5645-ed12-4e1c-bf71-3d25d772d08a">
+8. Leave the default settings and click **Create bucket**.
+   <img width="147" alt="Screenshot 2024-08-29 at 2 47 06 PM" src="https://github.com/user-attachments/assets/e72aef18-83d3-4b42-8f32-9ab059d78e89">
 
 ### 2. Set Up SNS (Simple Notification Service)
 
 1. Go to the [Amazon SNS console](https://console.aws.amazon.com/sns/home).
 2. Click on **Create topic**.
-3. Select **Standard** as the type of topic.
 4. Enter a name for the topic (e.g., `my-notification-topic`).
 5. Click **Create topic**.
-6. After creating the topic, click on it and go to the **Subscriptions** section.
-7. Click **Create subscription**.
-8. Under **Protocol**, select **Email**.
-9. In the **Endpoint** field, enter your email address.
-10. Click **Create subscription**.
-11. Check your email and confirm the subscription.
+   <img width="907" alt="Screenshot 2024-08-29 at 2 50 02 PM" src="https://github.com/user-attachments/assets/72ae7825-a2ff-46a6-9d94-4ba89ac0561f">
+5. Select **Standard** as the type of topic.
+   <img width="1090" alt="Screenshot 2024-08-29 at 2 52 08 PM" src="https://github.com/user-attachments/assets/e780ca4c-2d0c-4d35-987a-53767a534db8">
+7. Create the topic
+   <img width="130" alt="Screenshot 2024-08-29 at 2 53 21 PM" src="https://github.com/user-attachments/assets/de93ca01-40e1-4fce-9370-4807f400f6d1">
+9. After creating the topic, click on it and go to the **Subscriptions** section.
+    <img width="1058" alt="Screenshot 2024-08-29 at 2 54 34 PM" src="https://github.com/user-attachments/assets/8f1f3350-b7d9-4771-9858-f578cb56d908">
+11. Click **Create subscription**.
+12. Under **Protocol**, select **Email**.
+13. In the **Endpoint** field, enter your email address.
+14. Click **Create subscription**.
+15. Check your email and confirm the subscription.
 
 ### 3. Create the Lambda Function
 
