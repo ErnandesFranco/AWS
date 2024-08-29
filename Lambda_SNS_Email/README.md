@@ -65,7 +65,7 @@ This project creates an AWS Lambda function that sends an email notification whe
 For this example, use Python:
 
 # Copy and edit the code below: (Don't copy this line.)
-
+<code>
 import json
 import boto3
 
@@ -91,6 +91,7 @@ def lambda_handler(event, context):
         'statusCode': 200,
         'body': json.dumps('Notification sent successfully!')
     }
+</code>
 # This is the end of the code. (Don't copy this line.)
 **Replace your-region and your-account-id with the appropriate values from your SNS topic's ARN.**
 
