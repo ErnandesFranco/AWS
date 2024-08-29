@@ -29,11 +29,15 @@ This project creates an AWS Lambda function that sends an email notification whe
    <img width="130" alt="Screenshot 2024-08-29 at 2 53 21 PM" src="https://github.com/user-attachments/assets/de93ca01-40e1-4fce-9370-4807f400f6d1">
 9. After creating the topic, click on it and go to the **Subscriptions** section.
     <img width="1058" alt="Screenshot 2024-08-29 at 2 54 34 PM" src="https://github.com/user-attachments/assets/8f1f3350-b7d9-4771-9858-f578cb56d908">
-11. Click **Create subscription**.
-12. Under **Protocol**, select **Email**.
-13. In the **Endpoint** field, enter your email address.
-14. Click **Create subscription**.
-15. Check your email and confirm the subscription.
+10. Click **Create subscription**.
+    <img width="1058" alt="Screenshot 2024-08-29 at 2 57 01 PM" src="https://github.com/user-attachments/assets/eba3acd8-bf72-4d4c-90d7-d0469c7e91bd">
+11. Under **Protocol**, select **Email**.
+12. In the **Endpoint** field, enter your email address.
+    <img width="1093" alt="Screenshot 2024-08-29 at 2 58 51 PM" src="https://github.com/user-attachments/assets/0be6901c-f6e2-4204-bef5-160cbfd58570">
+13. Click **Create subscription**.
+    <img width="182" alt="Screenshot 2024-08-29 at 3 00 03 PM" src="https://github.com/user-attachments/assets/43a64030-a837-49d7-a6db-bcc1b08db3d2">
+14. Check your email and confirm the subscription.
+    <img width="1090" alt="Screenshot 2024-08-29 at 3 01 14 PM" src="https://github.com/user-attachments/assets/ae9ecff6-f5db-4aff-8be4-24190c347b8e">
 
 ### 3. Create the Lambda Function
 
