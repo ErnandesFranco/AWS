@@ -66,17 +66,16 @@ For this example, use Python:
 
 # Copy and edit the code below: (Don't copy this line.)
 <code>
-
+   import json
+   import boto3
     
     # Get bucket and file name from the event
-import json
-import boto3
 
-def lambda_handler(event, context):
-    s3 = boto3.client('s3')
-    sns = boto3.client('sns')
-    bucket_name = event['Records'][0]['s3']['bucket']['name']
-    file_name = event['Records'][0]['s3']['object']['key']
+   def lambda_handler(event, context):
+       s3 = boto3.client('s3')
+       sns = boto3.client('sns')
+       bucket_name = event['Records'][0]['s3']['bucket']['name']
+       file_name = event['Records'][0]['s3']['object']['key']
     
     # Compose the message
     message = f"A new file {file_name} was uploaded to the bucket {bucket_name}."
